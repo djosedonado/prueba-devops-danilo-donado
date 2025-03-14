@@ -8,3 +8,8 @@ docker build -t prueba-devops-app .
 ### 2-PASO
 ```bash
 docker run --name prueba-devops -p 5000:5000 -d prueba-devops-app
+```
+### 3-PASO
+```bash
+http://localhost:5000/devops
+```
